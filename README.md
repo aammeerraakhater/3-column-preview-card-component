@@ -47,12 +47,12 @@ Users should be able to:
 
   How to convert from desktop to tablet and to mobile was a bit challenging like how can i do that with the minimal code possible:
 
-```literally the container that hold all the other smaller containers 
+literally the container that hold all the other smaller containers 
 
 ```html
 ```
 <div class="biggercontainer">
-```
+  
 ```css
 ```just give it flex-direction: column;  and et voila 
 @media only screen and (max-width:870px) {
@@ -61,8 +61,8 @@ Users should be able to:
         flex-direction: column;  
     }
 }
-``also it is much eaiser to just setup your project like this in the very beggining
-```
+``also it is much eaiser to just setup your project like this in the very beggining``
+  
 *, ::after, ::before{
     box-sizing: border-box;
     margin:0;
@@ -81,7 +81,7 @@ Users should be able to:
 }
   
 ```to give child color that its parent have
-  ```
+  
     background-color:inherit; /*for background color*/
     color:inherit; /*for color*/
 
