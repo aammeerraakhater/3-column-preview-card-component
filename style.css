@@ -1,0 +1,99 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+:root{
+    --BrightOrange: hsl(31, 77%, 52%);
+    --DarkCyan: hsl(184, 100%, 22%);
+    --VeryDarkCyan: hsl(179, 100%, 13%);
+    --TransparentWhite: hsla(0, 0%, 100%, 0.75); /* (paragraphs)*/
+    --VeryLightGray : hsl(0, 0%, 95%);/*(background, headings, buttons)*/
+    
+}
+.biggercontainer{
+    width:850px;
+    margin:auto;
+    margin-top:80px;
+    display:flex;
+    border-radius:8px;
+    overflow: hidden;
+    color:var(--VeryLightGray);
+}
+.smallercontainer.first{
+    background-color: var(--BrightOrange);
+}
+.smallercontainer.second{
+    background-color: var(--DarkCyan);
+}
+.smallercontainer.third{
+    background-color: var(--VeryDarkCyan);
+}
+.smallercontainer{
+    padding:50px;
+    word-spacing: 3px;
+}
+
+.carImg{
+    width:60px;
+    height:60px;
+    background-repeat: no-repeat;
+    margin:0;
+}
+.smallercontainer.first .carImg{
+    background-image: url('images/icon-sedans.svg') ;
+}
+.smallercontainer.second .carImg{
+    background-image: url('images/icon-suvs.svg') ;
+}
+.smallercontainer.third .carImg{
+    background-image: url('images/icon-luxury.svg') ;
+}
+
+.title{
+    font-family: 'Big Shoulders Display', 'cursive';
+    font-size:35px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+}
+.mainparagraph{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size:15px;
+    color:var(--TransparentWhite);
+}
+.containerbtn{
+    width:150px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius:30px;
+    font-size:15px;
+    border:none;
+    background-color:var(--VeryLightGray);
+}
+.containerbtn.first{
+        color: var(--BrightOrange);
+    
+}
+.containerbtn.second{
+    color: var(--DarkCyan);
+}
+.containerbtn.third{
+    color: var(--VeryDarkCyan);
+}
+
+.containerbtn:hover,
+.containerbtn:focus,
+.containerbtn:active{
+    background-color:inherit;
+    border:2px solid var(--VeryLightGray);
+    color:var(--VeryLightGray);
+
+}
+/*Media query*/
+@media only screen and (max-width:870px) {
+    .biggercontainer{
+        max-width:90%;  
+        flex-direction: column;  
+    }
+}
