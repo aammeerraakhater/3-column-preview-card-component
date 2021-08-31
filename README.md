@@ -27,9 +27,10 @@ Users should be able to:
 ### Screenshot
 ![desktopscreen](https://user-images.githubusercontent.com/65508978/131430408-d344bf6f-eef2-4159-b041-5c292c0b45cc.png)
 ![tablet](https://user-images.githubusercontent.com/65508978/131430504-7419b340-d1ef-4f55-81da-86e0dc04e280.png)
+![phone](https://user-images.githubusercontent.com/65508978/131430598-62e1656c-e9e4-4dd3-9f4f-82ad7d78127f.png)
 
 
-![desktopscreen]('preview/Screenshot 2021-08-31 at 03-30-16 Frontend Mentor 3-column preview card component.png')
+
 ### Links
 
 - Solution URL: [github solution URL here](https://github.com/aammeerraakhater/3-column-preview-card-component.git)
