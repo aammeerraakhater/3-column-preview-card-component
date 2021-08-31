@@ -25,6 +25,8 @@ Users should be able to:
 - See hover states for interactive elements //can't do this as i don't want to use link so I am looking for different way.
 
 ### Screenshot
+![desktopscreen](https://user-images.githubusercontent.com/65508978/131430408-d344bf6f-eef2-4159-b041-5c292c0b45cc.png)
+
 ![desktopscreen](preview/Screenshot 2021-08-31 at 03-28-52 Frontend Mentor 3-column preview card component.png)
 ![tablet]('preview/Screenshot 2021-08-31 at 03-29-50 Frontend Mentor 3-column preview card component.png')
 ![desktopscreen]('preview/Screenshot 2021-08-31 at 03-30-16 Frontend Mentor 3-column preview card component.png')
