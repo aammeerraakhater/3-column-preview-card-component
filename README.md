@@ -25,12 +25,12 @@ Users should be able to:
 - See hover states for interactive elements //can't do this as i don't want to use link so I am looking for different way.
 
 ### Screenshot
-![desktopscreen]('preview/Screenshot 2021-08-31 at 03-28-52 Frontend Mentor 3-column preview card component.png')
+![desktopscreen](preview/Screenshot 2021-08-31 at 03-28-52 Frontend Mentor 3-column preview card component.png)
 ![tablet]('preview/Screenshot 2021-08-31 at 03-29-50 Frontend Mentor 3-column preview card component.png')
 ![desktopscreen]('preview/Screenshot 2021-08-31 at 03-30-16 Frontend Mentor 3-column preview card component.png')
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/aammeerraakhater/3-column-preview-card-component.git)
+- Solution URL: [github solution URL here](https://github.com/aammeerraakhater/3-column-preview-card-component.git)
 - Live Site URL: don't have one now sry
 
 ## My process
