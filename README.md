@@ -50,6 +50,7 @@ Users should be able to:
 ```literally the container that hold all the other smaller containers 
 
 ```html
+```
 <div class="biggercontainer">
 ```
 ```css
@@ -60,8 +61,8 @@ Users should be able to:
         flex-direction: column;  
     }
 }
-``` 
-also it is much eaiser to just setup your project like this in the very beggining
+``also it is much eaiser to just setup your project like this in the very beggining
+```
 *, ::after, ::before{
     box-sizing: border-box;
     margin:0;
@@ -78,7 +79,9 @@ also it is much eaiser to just setup your project like this in the very begginin
     --VeryLightGray : hsl(0, 0%, 95%);/*(background, headings, buttons)*/
     
 }
-``to give child color that its parent have 
+  
+```to give child color that its parent have
+  ```
     background-color:inherit; /*for background color*/
     color:inherit; /*for color*/
 
