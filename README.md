@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github solution URL here](https://github.com/aammeerraakhater/3-column-preview-card-component.git)
-- Live Site URL: don't have one now sry
+- Live Site URL: https://aammeerraakhater.github.io/3-column-preview-card-component/
 
 ## My process
 
@@ -49,19 +49,21 @@ Users should be able to:
 
 literally the container that hold all the other smaller containers 
 
-```html
-```
+html
+
 <div class="biggercontainer">
   
-```css
-```just give it flex-direction: column;  and et voila 
+css
+just give it flex-direction: column;  and et voila 
+  
 @media only screen and (max-width:870px) {
     .biggercontainer{
         max-width:90%;  
         flex-direction: column;  
     }
 }
-``also it is much eaiser to just setup your project like this in the very beggining``
+  
+also it is much eaiser to just setup your project like this in the very beggining``
   
 *, ::after, ::before{
     box-sizing: border-box;
